@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Westland Furnace LLC</title>
+  <meta name="description" content="Privacy policy for Westland Furnace LLC — how we collect, use, and protect your personal information." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://www.westlandfurnaceandac.com/privacy-policy/" />
+  <meta name="theme-color" content="#e05c28" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --orange: #e05c28; --orange-dark: #c44d1f; --slate: #1c2b3a; --white: #ffffff; --gray: #f5f6f8; --text: #1a1a1a; --muted: #6b7280; --radius: 8px; }
+    body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: var(--text); background: var(--white); }
+    a { color: var(--orange); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav { background: var(--slate); padding: 0 24px; position: sticky; top: 0; z-index: 100; }
+    .nav-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .nav-brand { color: var(--white); font-weight: 800; font-size: 1.1rem; line-height: 1.2; text-decoration: none; }
+    .nav-brand span { color: var(--orange); }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a { color: rgba(255,255,255,0.85); font-size: 0.92rem; font-weight: 500; text-decoration: none; transition: color .2s; }
+    .nav-links a:hover { color: var(--orange); }
+    .btn-call { background: var(--orange); color: var(--white); padding: 9px 20px; border-radius: var(--radius); font-weight: 700; font-size: 0.88rem; text-decoration: none; }
+    .btn-call:hover { background: var(--orange-dark); text-decoration: none; }
+    .hamburger { display: none; background: none; border: none; font-size: 1.6rem; color: var(--white); cursor: pointer; padding: 4px 8px; line-height: 1; }
+    @media (max-width: 768px) {
+      .nav-links { display: flex; position: fixed; top: 64px; left: 0; right: 0; background: var(--slate); flex-direction: column; gap: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.3); padding: 8px 24px; z-index: 99; max-height: 0; overflow: hidden; transition: max-height .35s ease, padding .35s ease; padding-top: 0; padding-bottom: 0; }
+      .nav-links.open { max-height: 320px; padding-top: 8px; padding-bottom: 8px; }
+      .nav-links li { width: 100%; }
+      .nav-links a { display: block; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+      .btn-call { display: none; }
+      .hamburger { display: block; }
+    }
+    .policy-wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 80px; }
+    .policy-wrap h1 { font-size: 2rem; font-weight: 800; color: var(--slate); margin-bottom: 8px; }
+    .policy-date { font-size: 0.87rem; color: var(--muted); margin-bottom: 40px; }
+    .policy-wrap h2 { font-size: 1.15rem; font-weight: 700; color: var(--slate); margin: 36px 0 12px; }
+    .policy-wrap p { font-size: 0.97rem; color: #374151; line-height: 1.8; margin-bottom: 14px; }
+    .policy-wrap ul { padding-left: 20px; margin-bottom: 14px; }
+    .policy-wrap li { font-size: 0.97rem; color: #374151; line-height: 1.8; margin-bottom: 6px; }
+    footer { background: var(--slate); color: rgba(255,255,255,0.7); padding: 40px 24px 24px; }
+    .footer-inner { max-width: 1100px; margin: 0 auto; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 0.8rem; }
+    .footer-bottom a { color: rgba(255,255,255,0.5); }
+    .footer-brand { font-size: 1.05rem; font-weight: 800; color: var(--white); margin-bottom: 8px; }
+    .footer-brand span { color: var(--orange); }
+    .footer-tagline { font-size: 0.85rem; max-width: 260px; line-height: 1.6; }
+    .footer-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; flex-wrap: wrap; margin-bottom: 32px; }
+    .footer-links h4 { color: var(--white); font-size: 0.82rem; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; }
+    .footer-links ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+    .footer-links a { font-size: 0.88rem; color: rgba(255,255,255,0.65); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: var(--orange); }
+    .mobile-call-btn { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; background: var(--orange); color: var(--white); text-align: center; padding: 16px; font-weight: 800; font-size: 1.1rem; text-decoration: none; box-shadow: 0 -4px 16px rgba(0,0,0,0.2); }
+    @media (max-width: 768px) { .mobile-call-btn { display: block; } body { padding-bottom: 58px; } }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="../" class="nav-brand">Westland<br><span>Furnace LLC</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../about/">About Us</a></li>
+      <li><a href="../services/">Our Services</a></li>
+      <li><a href="../#contact">Contact Us</a></li>
+    </ul>
+    <a href="tel:7347252218" class="btn-call">Call 734-725-2218</a>
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  </div>
+</nav>
+<div class="policy-wrap">
+  <h1>Privacy Policy</h1>
+  <p class="policy-date">Last updated: January 1, 2025</p>
+
+  <p>Westland Furnace LLC ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website westlandfurnaceandac.com or contact us to request HVAC services.</p>
+
+  <h2>Information We Collect</h2>
+  <p>We may collect the following types of personal information:</p>
+  <ul>
+    <li><strong>Contact Information:</strong> Name, phone number, email address, and service address when you submit a contact or estimate request form.</li>
+    <li><strong>Service Information:</strong> Details about your HVAC service needs that you provide when contacting us.</li>
+    <li><strong>Usage Data:</strong> Information about how you access and use our website, including your IP address, browser type, pages visited, and time spent on the site.</li>
+    <li><strong>Cookies:</strong> Small data files placed on your device to improve website functionality and analyze traffic.</li>
+  </ul>
+
+  <h2>How We Use Your Information</h2>
+  <p>We use the information we collect to:</p>
+  <ul>
+    <li>Respond to your service requests and provide HVAC estimates</li>
+    <li>Schedule and perform heating and cooling services</li>
+    <li>Communicate with you about appointments and follow-ups</li>
+    <li>Improve our website and customer experience</li>
+    <li>Comply with applicable laws and regulations</li>
+    <li>Send relevant promotional communications (you may opt out at any time)</li>
+  </ul>
+
+  <h2>Sharing Your Information</h2>
+  <p>We do not sell, trade, or rent your personal information to third parties. We may share your information with:</p>
+  <ul>
+    <li><strong>Service Providers:</strong> Trusted third-party vendors who help us operate our website or conduct our business (such as form processing services), subject to confidentiality agreements.</li>
+    <li><strong>Legal Requirements:</strong> When required by law, regulation, or valid legal process.</li>
+    <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of company assets, your information may be transferred to the acquiring entity.</li>
+  </ul>
+
+  <h2>Cookies and Tracking</h2>
+  <p>Our website may use cookies and similar tracking technologies to analyze site traffic and improve user experience. You can control cookie settings through your browser preferences. Note that disabling cookies may affect some website functionality.</p>
+  <p>We may use Google Analytics or similar services to understand how visitors interact with our website. These services collect anonymized usage data in accordance with their own privacy policies.</p>
+
+  <h2>Data Security</h2>
+  <p>We implement reasonable technical and organizational measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.</p>
+
+  <h2>Data Retention</h2>
+  <p>We retain your personal information for as long as necessary to provide services, comply with legal obligations, resolve disputes, and enforce our agreements. When your information is no longer needed, we securely delete or anonymize it.</p>
+
+  <h2>Your Rights</h2>
+  <p>Depending on your location, you may have certain rights regarding your personal information, including the right to:</p>
+  <ul>
+    <li>Access the personal information we hold about you</li>
+    <li>Request correction of inaccurate information</li>
+    <li>Request deletion of your personal information</li>
+    <li>Opt out of marketing communications</li>
+    <li>Lodge a complaint with a supervisory authority</li>
+  </ul>
+  <p>To exercise these rights, please contact us using the information below.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Our website and services are not directed to children under the age of 13. We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a child, please contact us so we can promptly delete it.</p>
+
+  <h2>Third-Party Links</h2>
+  <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those websites. We encourage you to review the privacy policies of any third-party sites you visit.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Last updated" date at the top of this page. Your continued use of our website after changes are posted constitutes your acceptance of the updated policy.</p>
+
+  <h2>Contact Us</h2>
+  <p>If you have questions about this Privacy Policy or how we handle your personal information, please contact us:</p>
+  <p>
+    <strong>Westland Furnace LLC</strong><br>
+    6501 Yale St Unit 502<br>
+    Westland, MI 48186<br>
+    Phone: <a href="tel:7347252218">734-725-2218</a>
+  </p>
+</div>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Westland <span>Furnace LLC</span></div>
+        <p class="footer-tagline">Serving Westland MI and Metro Detroit with trusted HVAC service for over 20 years.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../about/">About Us</a></li>
+          <li><a href="../services/">Our Services</a></li>
+          <li><a href="../#contact">Contact Us</a></li>
+          <li><a href="../privacy-policy/">Privacy Policy</a></li>
+          <li><a href="../resources/">Resources</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="yr"></span> Westland Furnace LLC. All rights reserved.</span>
+      <a href="../privacy-policy/">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+<a href="tel:7347252218" class="mobile-call-btn">Call Now — 734-725-2218</a>
+<script>
+  document.getElementById("yr").textContent = new Date().getFullYear();
+  (function () {
+    var hb = document.querySelector(".hamburger"); var nv = document.querySelector("#nav-links"); if (!hb || !nv) return;
+    hb.addEventListener("click", function () { var open = nv.classList.toggle("open"); hb.setAttribute("aria-expanded", open); });
+    nv.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { nv.classList.remove("open"); hb.setAttribute("aria-expanded", "false"); }); });
+  })();
+</script>
+</body>
+</html>
