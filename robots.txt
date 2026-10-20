@@ -3,4 +3,26 @@ Allow: /
 Disallow: /resources/
 Disallow: /privacy-policy/
 
+# AI search and live-fetch crawlers - allowed
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+Disallow: /resources/
+Disallow: /privacy-policy/
+
+# AI training crawlers - disallowed
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
+User-agent: Bytespider
+User-agent: anthropic-ai
+Disallow: /
+
 Sitemap: https://www.westlandfurnaceandac.com/sitemap.xml
